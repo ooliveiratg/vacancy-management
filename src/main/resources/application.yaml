@@ -1,0 +1,12 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/gestao_vagas
+    username: admin
+    password: admin
+
+  application:
+    name: gestao_vagas
+    
+  jpa:
+    hibernate:
+        ddl-auto: update
